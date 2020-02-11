@@ -164,9 +164,7 @@ str(s1)
 aa321(s1$seqres)
 ```
 
-```{r}
-s1atom
-```
+
  >Q2 What does the trim.pdb() function do?
  
  ?trim.pdb
