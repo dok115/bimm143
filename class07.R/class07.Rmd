@@ -94,7 +94,7 @@ is_both_na <- function(x,y){
   is.na(x) & is.na(y)
 }
 
-is_both_na(x,z)
+
 
 ```
 Function : na.number = how many both true 

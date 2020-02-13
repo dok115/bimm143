@@ -40,3 +40,11 @@ round(sum(stats$Proteins) / sum(stats$Total) * 100,2)
 >Q3: Type HIV in the PDB website search box on the home page and determine how many HIV-1 protease structures are in the current PDB?
 
 1289 of HIV-1 protease 
+
+
+#Part 2 
+
+```{r}
+library(bio3d)
+```
+
