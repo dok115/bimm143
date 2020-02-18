@@ -43,5 +43,12 @@ ligd
 
 ```
 
-pdbqt file will add the partial charge of each atoms in new column 
+pdbqt file will add the hydrognen atoms and the partial charge of each atoms in new column 
+
+Read docking results
+
+```{r}
+res <-read.pdb("all.pdbqt", multi=TRUE)
+write.pdb(res, "result.pdb")
+```
 
