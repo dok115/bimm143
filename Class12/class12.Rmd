@@ -44,7 +44,35 @@ round(sum(stats$Proteins) / sum(stats$Total) * 100,2)
 
 #Part 2 
 
+Read a single PDB structue into R
 ```{r}
 library(bio3d)
+
+pdb <- read.pdb("1hsg")
+pdb
 ```
+
+```{r}
+attributes(pdb)
+```
+
+```{r}
+pdb$atom
+```
+
+##Select pretein only atoms
+Here I will use the 'atom.select()' function to do this ... 
+pdb <- READ.PDB("PBDID like '1HSG'")
+Atom.select(pdb, other arguments ... )
+
+```{r}
+prt <- atom.select(pdb, "protein", value =TRUE)
+lig <- atom.select(pdb,"ligand", value = TRUE)
+```
+And write out these new PDB onjects with the 'write.pdb()' function
+```{r}
+write.pdb(lig, file="1hsg_ligand.pdb")
+write.pdb(prt, file="1hsg_protein.pdb")
+```
+
 
