@@ -43,3 +43,5 @@ ligd
 
 ```
 
+pdbqt file will add the partial charge of each atoms in new column 
+
