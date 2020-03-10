@@ -8,12 +8,12 @@ Added content to new pages site:https://dok115.github.io/bimm143_DSK/
 
 class6: [link](https://github.com/dok115/bimm143_DSK/blob/master/class06.R/class06.Rmd)
 class7: [link](https://github.com/dok115/bimm143_DSK/tree/master/class07.R)
-class8:
-class9:
-class10:
-class11:
-class12:
-class13:
+class8: [link](https://github.com/dok115/bimm143_DSK/tree/master/class08%20-%20WGBSsimulation)
+class9: [link](https://github.com/dok115/bimm143_DSK/tree/master/class09)
+class10: [link](https://github.com/dok115/bimm143_DSK/tree/master/class10)
+class11: [link](
+class12: [link](https://github.com/dok115/bimm143_DSK/tree/master/Class12)
+class13: [link](https://github.com/dok115/bimm143_DSK/tree/master/class13_02.18)
 class14:
 class15:
 class16:
